@@ -1,6 +1,6 @@
 #!/bin/bash
-COUNTER=1
+COUNTER=5000
 while(true) do
 ./beyond.sh
-let COUNTER=COUNTER+1 
+let COUNTER=COUNTER+5000
 done
